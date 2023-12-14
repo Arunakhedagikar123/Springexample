@@ -17,8 +17,6 @@ public class User {
 	public String getuserPassword() {
 		return userPassword;
 	}
-	public void setUserPassword(String setPassword) {
-		this.userPassword=userPassword;
-	}
+	
 
 }
