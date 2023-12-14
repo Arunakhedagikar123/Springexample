@@ -5,18 +5,21 @@ public class User {
 	private String userName;
 	private String userEmail;
 	private String userPassword;
+	private String userPassword1;
 	public int getUserId() {
 		return userId;
 		
-	}
-	
-	public void setterEmail(String userEmail) {
-		this.userEmail=userEmail;
 		
 	}
+	
+	
+		
+	
 	public String getuserPassword() {
 		return userPassword;
 	}
-	
+	public String getuserpassword1() {
+		return userPassword;
+	}
 
 }
